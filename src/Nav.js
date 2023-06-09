@@ -14,14 +14,15 @@ const Nav = () => {
         type='text'
         placeholder='Search Posts'
         value={search}
+        autoComplete='off'
         onChange={(e)=>setSearch(e.target.value)}
         />
 
       </form>
       <ul>
         <li><NavLink to='/'>Home</NavLink></li>
-        <li><NavLink to='newpost'>Post</NavLink></li>
-        <li><NavLink to='about'>About</NavLink></li>
+        <li><NavLink to='./newpost'>NewPost</NavLink></li>
+        <li><NavLink to='./about'>About</NavLink></li>
       </ul>
 
 

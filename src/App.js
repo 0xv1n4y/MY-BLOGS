@@ -6,7 +6,7 @@ import Post from './Post';
 import PostPage from './PostPage';
 import About from './About';
 import Missing from './Missing';
-import NewPost from './NewPost';
+import NewPost from "./NewPost"
 import { Route, Routes } from 'react-router-dom';
 import EditPage from './EditPage';
 import {DataProvider} from "./context/DataContext"
@@ -16,22 +16,22 @@ import {DataProvider} from "./context/DataContext"
 function App (){
 
   return(
-    <div>
+    <div> 
       
       <Header title="Vinay-Blogs" />
       <DataProvider>
       <Nav />
       <Routes>
-        <Route path="/" component={ <Home /> } />
-        <Route path="about" component={ <About/> } />
-        <Route path="*" component={ <Missing/> } />
-        <Route path='post' component={<Post/>}/>
+        <Route path="/" element={ <Home /> } />
+        <Route path="/about" element={ <About/> } />
+        <Route path="*" element={ <Missing/> } />
+        <Route path='/post' element={<Post/>}/>
 
-        <Route path='/post/:id' component={<PostPage />}/>
+        <Route path='/post/:id' element={<PostPage />}/>
 
-        <Route path='newpost' component={<NewPost/>}/>
+        <Route path='/newpost' element={<NewPost/>}/>
 
-        <Route path='edit/:id' component={<EditPage />}/>
+        <Route path='/edit/:id' element={<EditPage />}/>
 
       </Routes>
       </DataProvider>
