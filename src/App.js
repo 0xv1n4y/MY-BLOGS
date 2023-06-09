@@ -22,16 +22,16 @@ function App (){
       <DataProvider>
       <Nav />
       <Routes>
-        <Route path="/" element={ <Home /> } />
-        <Route path="about" element={ <About/> } />
-        <Route path="*" element={ <Missing/> } />
-        <Route path='post' element={<Post/>}/>
+        <Route path="/" component={ <Home /> } />
+        <Route path="about" component={ <About/> } />
+        <Route path="*" component={ <Missing/> } />
+        <Route path='post' component={<Post/>}/>
 
-        <Route path='/post/:id' element={<PostPage />}/>
+        <Route path='/post/:id' component={<PostPage />}/>
 
-        <Route path='newpost' element={<NewPost/>}/>
+        <Route path='newpost' component={<NewPost/>}/>
 
-        <Route path='edit/:id' element={<EditPage />}/>
+        <Route path='edit/:id' component={<EditPage />}/>
 
       </Routes>
       </DataProvider>
