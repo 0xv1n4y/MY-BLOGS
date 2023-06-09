@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "title": "About  React-Js one",
+      "datetime": "June 06,2023 2:22:17 PM",
+      "body": "ReactJS is JavaScript library used for building reusable UI components. According to React official documentation, following is the definition −\nReact is a library for building composable user interfaces. It encourages the creation of reusable UI components, which present data that changes over time. Lots of people use React as the V in MVC. React abstracts away the DOM from you, offering a simpler programming model and better performance. React can also render on the server using Node, and it can power native apps using React Native. React implements one-way reactive data flow, which reduces the boilerplate and is easier to reason about than traditional data binding."
+    },
+    {
+      "id": 3,
+      "title": "About Java",
+      "datetime": "June 09,2023 12:16:26 PM",
+      "body": "Java is a widely-used programming language for coding web applications. It has been a popular choice among developers for over two decades, with millions of Java applications in use today. Java is a multi-platform, object-oriented, and network-centric language that can be used as a platform in itself."
+    }
+  ]
+}
